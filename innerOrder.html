@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>innerOrder</title>
+</head>
+<body>
+    <header>
+        <span class="font-36 bold">KREAM</span>
+        <span class="font-18 bold">배송/결제</span>
+        <div class="line-btn" style="padding: 8px !important; height: fit-content !important;">검수기준</div>
+    </header>
+    <div class="body">
+        <div class="item-info card">
+            <div class="row gap-small">
+                <div class="item-img" style="width: 15%;">
+                    <img id="crocs" src="./img/shoes.png" alt="">
+                </div>
+                <div class="col gap-xsmall">
+                    <span class="font-14 bold">207988-001</span>
+                    <div class="col gap-xxsmall">
+                        <span class="font-14">(w) Crocs Classic Mega Crush Clog Black</span>
+                        <span class="font-14 lightgray">(w) 크록스 클래식 메가 크러쉬 클로그 블랙</span>
+                    </div>
+                    <span class="font-14 bold">220(US 5W)</span>
+                </div>
+            </div>
+        </div>
+        <div class="address-info card">
+            <div class="row space-between">
+                <span class="font-20 bold">배송 주소</span>
+                <span class="font-12 gray" style="cursor: pointer;">새 주소 추가</span>
+            </div>
+            <div class="account col gap-medium">
+                <div class="row space-between">
+                    <div class="col gap-small">
+                        <div class="row width-full">
+                            <span class="font-14 lightgray" style="width: 140px;">받는 분</span>
+                            <span class="font-14 gray">윤**</span>
+                        </div>
+                        <div class="row width-full">
+                            <span class="font-14 lightgray" style="width: 140px;">연락처</span>
+                            <span class="font-14 gray">010-****-9736</span>
+                        </div>
+                        <div class="row width-full">
+                            <span class="font-14 lightgray" style="width: 140px;">배송 주소</span>
+                            <span class="font-14 gray">부산광역시 동래구 온천장로 119번길</span>
+                        </div>
+                    </div>
+                    <div class="line-btn" style="padding: 8px !important; height: fit-content !important;">변경하기</div>
+                </div>
+                <div class="row gap-small" style="align-items: center;">
+                    <button class="pay-btn row space-between" style="width: 100% !important;">
+                        <span class="font-14">요청 사항 없음.</span>
+                    </button>
+                </div>
+            </div>
+            <hr>
+            <span class="font-20 bold">배송 방법</span>
+            <div class="row gap-small line-btn" style="justify-content: start !important; padding: 24px 16px !important; height: auto !important;">
+                <img style="border-radius: 100px; width: 50px; height: 50px; background-color: gray;" src="" alt="">
+                <div class="col gap-xsmall" style="cursor: pointer;">
+                    <span class="font-14 bold">일반배송 <span class="font-14">3,000원</span></span>
+                    <span class="font-14 lightgray">검수 후 배송   5~7일 내 배송</span>
+                </div>
+            </div>
+            <div class="row gap-small line-btn" style="justify-content: start !important; padding: 24px 16px !important; height: auto !important;">
+                <img style="border-radius: 100px; width: 50px; height: 50px; background-color: gray;" src="" alt="">
+                <div class="col gap-xsmall" style="cursor: pointer;">
+                    <span class="font-14 bold">창고보관 <span class="font-14">첫 30일 무료</span></span>
+                    <span class="font-14 lightgray">배송 없이 창고에 보관   빠르게 판매 가능</span>
+                </div>
+            </div>
+        </div>
+        <div class="sale-benefit card">
+            <span class="font-20 bold">할인 혜택</span>
+            <div class="account col gap-small">
+                <div class="row order-title">
+                    <span class="font-14">쿠폰</span>
+                </div>
+                <div class="row gap-small" style="align-items: center;">
+                    <button class="pay-btn row space-between" style="width: 100% !important;">
+                        <span class="font-14">사용가능한 쿠폰이 없습니다.</span>
+                    </button>
+                    <span class="font-12 chip">최대사용</span>
+                </div>
+                <div class="row order-title">
+                    <span class="font-14">포인트</span>
+                </div>
+                <div class="row gap-small" style="align-items: center;">
+                    <button class="pay-btn row space-between" style="width: 100% !important;">
+                        <span class="font-18">0</span>
+                    </button>
+                    <span class="font-12 chip">최대사용</span>
+                </div>
+                <span class="font-12 lightgray">보유 포인트  <span class="font-12 gray">0p</span></span>
+            </div>
+        </div>
+        <div class="pay card">
+            <span class="font-20 bold">결제 방법</span>
+            <div class="account col gap-small">
+                <div class="row order-title">
+                    <span class="font-14">계좌 간편결제</span>
+                    <span class="chip font-12">결제 시 포인트 적립</span>
+                </div>
+                <button class="pay-btn row space-between" style="width: 100% !important;">
+                    <span class="font-14">계좌를 등록하세요</span>
+                    <span class="font-14">첫 등록시 <span class="font-14 purple">3,000P </span>></span>
+                </button>
+            </div>
+            <div class="col gap-small">
+                <div class="order-title row space-between">
+                    <div class="order-title row gap-xsmall">
+                        <span class="font-14">카드 간편결제</span>
+                        <span class="font-12 gray">일시불</span>
+                    </div>
+                    <span class="font-12 gray" style="cursor: pointer;">새카드 추가</span>
+                </div>
+                <button class="pay-btn col space-between" style="width: 100% !important;">
+                    <span class="font-14">하나 SK카드</span>
+                    <span class="font-14">****-****-****-1938</span>
+                </button>
+            </div>
+            <div class="col gap-small" style="width: 100%;">
+                <div class="order-title row gap-xsmall" style="justify-content: start !important;">
+                    <span class="font-14">일반 결제</span>
+                    <span class="font-12 gray">일시불 할부</span>
+                </div>
+                <div class="pay-btn-wrapper row">
+                    <button class="pay-btn row space-between">
+                        <span class="font-14">신용카드</span>
+                        <span class="font-14"></span>
+                    </button>
+                    <button class="pay-btn row space-between">
+                        <span class="font-14">네이버페이</span>
+                        <span class="font-14 green">Naver</span>
+                    </button>
+                    <button class="pay-btn row space-between">
+                        <span class="font-14">카카오페이</span>
+                        <span class="font-14 yellow">Kakao</span>
+                    </button>
+                    <button class="pay-btn row space-between">
+                        <span class="font-14">토스페이</span>
+                        <span class="font-14 blue">Toss</span>
+                    </button>
+                    <button class="pay-btn row space-between">
+                        <span class="font-14">페이코</span>
+                        <span class="font-14 red">Payco</span>
+                    </button>
+                    <button class="pay-btn row space-between" style="visibility: hidden;">
+                        <span class="font-14">none</span>
+                        <span class="font-14">none</span>
+                    </button>
+                </div>
+                <hr>
+                <span class="font-12 gray">체결 후 결제 정보 변경은 불가하며 분할 납부 변경은 카드사 문의 바랍니다.
+                    단, 카드사 별 정책에 따라 분할 납부 변경 시 수수료가 발생할 수 있습니다.
+                </span>
+                <hr>
+            </div>
+            <div class="col gap-small">
+                <div class="row width-full">
+                    <span class="font-14 gray" style="width: 140px;">계좌 결제</span>
+                    <span class="font-14 lightgray">최대 5만 포인트 적립</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">우리카드</span>
+                    <span class="font-14 lightgray">KREAM카드 최대 6만원 할인</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">농협카드</span>
+                    <span class="font-14 lightgray">20만원 이상 즉시할인 3%</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">카카오페이카드</span>
+                    <span class="font-14 lightgray">60만원 이상 즉시할인 3만원</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">토스뱅크카드</span>
+                    <span class="font-14 lightgray">20만원 이상 즉시할인 4%</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">삼성카드</span>
+                    <span class="font-14 lightgray">12/18개월 할부 혜택</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">국민카드</span>
+                    <span class="font-14 lightgray">12/18개월 할부 혜택</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">현대카드</span>
+                    <span class="font-14 lightgray">포인트 최대 1만원 적립</span>
+                </div>
+                <div class="row width-full">
+                    <span class="font-14 lightgray" style="width: 140px;">네이버페이</span>
+                    <span class="font-14 lightgray">최대 5만 포인트 적립 & 수수료 할인</span>
+                </div>
+            </div>
+        </div>
+        <div class="total card col gap-small">
+            <span class="font-20 bold">최종 주문정보</span>
+            <div class="account col gap-medium">
+                <div class="col gap-small space-between">
+                    <div class="row width-full space-between">
+                        <span class="font-14 gray" style="width: 140px;">즉시 구매가</span>
+                        <span class="font-14 gray">119,000원</span>
+                    </div>
+                    <div class="row width-full space-between">
+                        <span class="font-14 lightgray" style="width: 140px;">검수비</span>
+                        <span class="font-14 gray">3,900원</span>
+                    </div>
+                    <div class="row width-full space-between">
+                        <span class="font-14 lightgray" style="width: 140px;">수수료</span>
+                        <span class="font-14 gray">3,900원</span>
+                    </div>
+                    <div class="row width-full space-between">
+                        <span class="font-14 lightgray" style="width: 140px;">쿠폰 사용</span>
+                        <span class="font-14 gray">-</span>
+                    </div>
+                    <div class="row width-full space-between">
+                        <span class="font-14 lightgray" style="width: 140px;">포인트 사용</span>
+                        <span class="font-14 gray">-</span>
+                    </div>
+                </div>
+                <hr>
+                <div class="col gap-small">
+                    <span class="font-18 bold">총 결제금액</span>
+                    <span class="font-27 bold width-full" style="text-align: end;">129,500원</span>
+                </div>
+                <hr>
+            </div>
+            <span class="font-18 bold">포인트 혜택</span>
+            <div class="col gap-small">
+                <div class="row width-full space-between">
+                    <span class="font-14 lightgray" style="width: 140px;">계좌 간편결제 시</span>
+                    <span class="font-14 gray">1,250p</span>
+                </div>
+                <hr>
+                <div class="row width-full space-between">
+                    <span class="font-14 lightgray" style="width: 140px;">적립 예정 포인트</span>
+                    <span class="font-14 purple">1,250p</span>
+                </div>
+            </div>
+        </div>
+        <div class="pay-fin card">
+                <div class="line-btn col gap-xsmall" style="cursor: pointer; background-color: var(--black);">
+                    <span class="font-18 white">126,900원 · 일반배송 결제하기</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
